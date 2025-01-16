@@ -1,0 +1,28 @@
+{
+  "name": "ayucare-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^9.0.0",
+    "langchain": "^0.0.180",
+    "mongoose": "^6.5.3"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
